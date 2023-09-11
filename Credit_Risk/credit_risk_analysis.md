@@ -24,7 +24,7 @@ The RandomOverSampler from the imbalanced-learn library was then used to resampl
   * For high-risk loans (`1`), the precision value was lower at 0.87 suggesting that when the model predicts a loan as high-risk, it is correct 87% of the time. The recall value is 0.89 indicating that 89% of high-risk loans were correctly identified. The f1 score for high-risk loans therefore sits at 0.88. Though it indicates that the model performs well at classifying high-risk loans, there is still room for improvement.
 ![Screenshot 2023-09-11 at 15 25 11](https://github.com/ashejaz/credit-risk-classification/assets/127614970/c8fc04d2-3d25-4fcf-b682-650ff25fbc2e)
   * The confusion matrix demonstrates that while only 0.43% of healthy loans were incorrectly classified (false positives), 10.72% of high-risk loans were incorrectly classified (false negatives). This supports the assertion that the model's classification of high risk loans could be improved.
-![Screenshot 2023-09-11 at 16 27 37](https://github.com/ashejaz/credit-risk-classification/assets/127614970/3fce0879-55e8-41bd-8dbb-fa3c5d78ba76)
+    ![Screenshot 2023-09-11 at 16 27 37](https://github.com/ashejaz/credit-risk-classification/assets/127614970/3fce0879-55e8-41bd-8dbb-fa3c5d78ba76)
  
     
 
@@ -34,7 +34,7 @@ The RandomOverSampler from the imbalanced-learn library was then used to resampl
   * For high-risk loans (`1`), precision remained the same at 87%, though recall increased from 0.89 to 1.00 resulting in an improved f1-score of 0.93 compared to 0.88 with the previous model. This is a significant improvement in correct classification of high-risk loans.
 ![Screenshot 2023-09-11 at 15 39 41](https://github.com/ashejaz/credit-risk-classification/assets/127614970/d59bacf3-eb7f-430e-868f-f2f7a0d354a0)
   * From the confusion matrix we can calculate that the % of healthy loans being incorrectly classified (false negatives) has increased slightly from 0.43% to 0.49% which is not a significant increase. However, the % of high-risk loans being incorrectly classified (false positives) has dropped significantly from 10.72% previously to just 0.32% by using resampled data to train the model.
-![Screenshot 2023-09-11 at 16 27 49](https://github.com/ashejaz/credit-risk-classification/assets/127614970/aad08bdf-0dfb-44ac-9bac-669531dc71f5)
+    ![Screenshot 2023-09-11 at 16 27 49](https://github.com/ashejaz/credit-risk-classification/assets/127614970/aad08bdf-0dfb-44ac-9bac-669531dc71f5)
 
 
 
