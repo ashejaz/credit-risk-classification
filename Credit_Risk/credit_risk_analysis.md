@@ -6,7 +6,7 @@ The purpose of this project was to create a machine learning model to effectivel
 
 Lending data was imported from a CSV file with 'loan_status' being set as the y variable and the X data consisting of variables including loan size, interest rate, borrower income, debt to income, number of accounts, derogatory marks and total debt.
 
-Overall, the dataset contained 77,536 rows of which 96.8% of which were healthy loans.
+Overall, the dataset contained 77,536 rows of which 96.8% were healthy loans.
 
 ### Method
 
